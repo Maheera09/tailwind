@@ -2,7 +2,14 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        13: '83px'
+      },
+      fontSize: {
+        '10xl': ['9rem', {lineHeight: '1.2'}]
+      }
+    },
   },
   plugins: [],
 }
